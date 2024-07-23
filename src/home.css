@@ -1,0 +1,305 @@
+.moves1{
+    display: inline-flex;
+    align-content: space-evenly;
+
+}
+.movesfrom1 {
+    display: block;
+    margin-right: 10px;
+    max-width: 300px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    text-align: left; 
+    position: relative;
+    left: 40px;
+  }
+  .movesto1 {
+    display: block;
+    margin-right: 10px;
+    max-width: 300px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    position: relative;
+    left: 160px;
+  }
+
+  .moves2 {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-left: 10px; 
+  }
+  
+  #homimg1 {
+    width: 30px;  
+    height: 32px; 
+  }
+  #homimg1 {
+    width: 30px;  
+    height: 32px;
+    position: relative;
+    right: 170px; 
+  }
+  #location1{
+    width: 30px;  
+    height: 32px; 
+    
+  }
+  #wall1{
+    width: 30px;  
+    height: 32px; 
+    position: relative;
+    right: 170px;
+
+  }
+  #loc1{
+    width: 30px;  
+    height: 32px; 
+    position: relative;
+    right: 170px;
+
+  }
+  #cal1{
+    width: 30px;  
+    height: 32px;
+    position: relative;
+    right: 170px; 
+
+  }
+  
+.imgdistance, .imgcalendar, .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+  
+  .imgdistance img, .imgcalendar img {
+    width: 24px;  
+    height: 24px; 
+    margin-right: 8px; 
+  }
+  
+  .data-text1 {
+    font-weight: normal;
+    position: relative;
+    top: -45px;
+    right: 120px; 
+  }
+  
+  .data-text2 {
+    font-weight: normal; 
+    position: relative;
+    top: -50px;
+    right: 120px;
+  }
+  .data-text3 {
+    font-weight: normal;
+    position: relative;
+    right: 165px; 
+  }
+  .data-text4 {
+    font-weight: normal;
+    position: relative;
+   
+    right: 165px; 
+  }
+  
+  .checkbox label {
+    margin-left: 4px;
+    
+  }
+.btnawaiting{
+    position: relative;
+    left: 115px;
+
+}  
+.btnveiwdetails{
+    position: relative;
+    left: 125px;
+} 
+
+.checkbox1{
+    position: relative;
+    left: 120px;
+    
+}
+
+.imgcalendar{
+    position: relative;
+    left: 275px;
+}
+.imgdistance{
+    position: relative;
+    left: 265px;
+}
+/* .wall{
+    position: relative;
+    left: 170px;
+} */
+.wall{
+    position: relative;
+    left: 230px;
+    top: 25px;
+}
+.imghome{
+    position: relative;
+    left: 170px;
+    top: 24px;
+}
+#from1{
+    position: relative;
+    left: 60px;
+}
+
+.btn1{   
+ background-color: white;
+ border: orangered solid 1px;
+ color: orangered;
+ width: 200px;
+ height: 35px;
+ border-radius: 4px;
+ font-weight: bolder;
+}
+.btn2{ 
+    background-color: white;
+    border: orangered solid 1px;
+    color: white;
+    width: 200px;
+    height: 35px;
+    background-color: orangered;
+    border-radius: 4px;
+    font-weight: bolder;
+   }
+
+   .btn2:hover{ 
+    background-color: white;
+    border: orangered solid 1px;
+    color: orangered;
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    font-weight: bolder;
+   }
+   .btn1:hover{
+    background-color: white;
+    border: orangered solid 1px;
+    color: white;
+    width: 200px;
+    height: 35px;
+    background-color: orangered;
+    border-radius: 4px;
+    font-weight: bolder;
+   }
+   .request{
+    position: relative;
+    left: 270px;
+    top: 3px;
+   }
+   #rqst{
+     color: orangered;
+   }
+   .Mymove{
+    position: relative;
+    left: 50px;
+   }
+   .moves3{
+    position: relative;
+    left: 50px;
+   }
+   #disdata1{
+    position: relative;
+    left: 90px;
+    top: -30px;
+    font-weight: normal;
+   }
+   #invedetails{
+    position: relative;
+    left: 10px;
+   }
+   #btn3{
+    border: black;
+    color: white;
+    width: 130px;
+    height: 25px;
+    background-color: black;
+    border-radius: 4px;
+    font-weight: bolder;
+    position: relative;
+    left: 190px;
+    bottom: 45px;
+   }
+   #btn4{
+color: rgb(241, 15, 15);
+border: 1px solid silver;
+background-color: silver;
+width: 900px;
+height: 20px;
+font-weight: bolder;
+text-align: left;
+border-radius: 6px;
+   }
+
+   .item-details1{
+    font-size: small;
+    position: relative;
+    left: 300px;
+    text-align: left;
+   }
+   #qtydata{
+    position: relative;
+    left: 150px;
+    top: -30px;
+    font-weight: normal;
+
+   }
+.funrni{
+    position: relative;
+    left: 300px;
+    font-size: x-large;
+   
+}
+.item-details2{
+    font-size: small;
+    position: relative;
+    left: 700px;
+    text-align: left;
+    bottom: 3250px;
+}
+.ele1{
+    position: relative;
+    bottom: 3250px;
+    font-size: x-large;
+    left: 650px;
+}
+.room-items{
+    text-align: left;
+}
+.data5{
+font-size: larger;
+position: relative;
+left: 250px;
+}
+#arrowimg1{
+    width: 38px;  /* Adjust the width to your desired size */
+    height: 42px; 
+    position: relative;
+    left: 90px;
+    top: 55px;
+
+}
+#moveto01{
+    position: relative;
+    left: 220px;
+}
+#dangerimg{
+  width: 32;
+  height: 40px;
+  position: relative;
+  bottom: -50px;
+  right: 45px;
+
+}
+
+
+  
